@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.team-card-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  height: 150px; /* Set a fixed height */
+  text-decoration: none;
+}
+
+.team-card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.team-name {
+  font-size: 30px; /* Reduced font size for better fit */
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-left: 20px; /* Add some space between image and text */
+  flex-grow: 1;
+  text-align: center; /* Center the text vertically */
+}
